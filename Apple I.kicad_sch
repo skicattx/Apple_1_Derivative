@@ -2437,23 +2437,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 6.35 0)
+			(property "Reference" "J1"
+				(at 0 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Mini-DIN-6"
-				(at 0 -6.35 0)
+			(property "Value" "PS/2 Keyboard"
+				(at 8.382 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "digikey-footprints:MINI-DIN-6-FULL-SHIELD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2772,6 +2772,24 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "Case"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.9906 0.9906)
 							)
 						)
 					)
@@ -25242,7 +25260,7 @@
 			)
 		)
 		(property "Value" "PS/2 Keyboard"
-			(at 176.403 156.21 0)
+			(at 184.658 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25293,6 +25311,9 @@
 		)
 		(pin "5"
 			(uuid "c273152e-da6c-4ccb-b223-a987b42dd3f1")
+		)
+		(pin "7"
+			(uuid "b51c65f6-8b08-4ba7-b682-dafade481539")
 		)
 		(instances
 			(project ""
@@ -28521,6 +28542,71 @@
 			(project "Apple I"
 				(path "/091ce770-e129-4419-8fb8-0b99f410dc89"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.895 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9cd1a31-4fb6-49e0-a302-5f274704a26d")
+		(property "Reference" "#PWR054"
+			(at 175.895 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.736 157.734 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.895 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.895 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.895 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1a18c92-2354-431e-a968-5eedead83cc6")
+		)
+		(instances
+			(project "Apple I"
+				(path "/091ce770-e129-4419-8fb8-0b99f410dc89"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
