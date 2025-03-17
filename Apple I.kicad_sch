@@ -15646,10 +15646,6 @@
 		(uuid "0503ce89-e2f2-4d66-9e9d-17f831290c32")
 	)
 	(no_connect
-		(at 22.225 252.73)
-		(uuid "05438ac3-3ce8-4728-bcf9-c1691d646cca")
-	)
-	(no_connect
 		(at 44.45 43.18)
 		(uuid "15f3416a-3dfa-477d-a648-19d1ec61e4f5")
 	)
@@ -15732,10 +15728,6 @@
 	(no_connect
 		(at 147.32 121.92)
 		(uuid "606ea9a6-a6ff-4539-949b-b3fa6ce60510")
-	)
-	(no_connect
-		(at 22.225 262.89)
-		(uuid "6d73afd4-8945-47f1-859c-54288567141e")
 	)
 	(no_connect
 		(at 224.79 116.205)
@@ -35601,79 +35593,6 @@
 				(path "/091ce770-e129-4419-8fb8-0b99f410dc89"
 					(reference "R9")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 22.225 257.81 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d09dea47-5c10-4dcc-9e31-1a15ef9c1c4e")
-		(property "Reference" "SW2"
-			(at 16.891 257.81 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "Video Reset"
-			(at 18.923 257.81 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "digikey-footprints:Terminal_Block_D1.3mm_P5mm"
-			(at 17.145 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.145 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 22.225 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86fcdc87-0ef5-4ba8-8721-bb1b83279b5b")
-		)
-		(pin "3"
-			(uuid "c7d20e13-6c16-42a2-a470-08be481cc0ed")
-		)
-		(pin "4"
-			(uuid "bf7ba367-0284-4af6-866a-53127ba74f72")
-		)
-		(pin "2"
-			(uuid "fd8d5a65-2a3d-4655-bb21-9993eb1dda97")
-		)
-		(instances
-			(project "Apple I"
-				(path "/091ce770-e129-4419-8fb8-0b99f410dc89"
-					(reference "SW2")
-					(unit 2)
 				)
 			)
 		)
